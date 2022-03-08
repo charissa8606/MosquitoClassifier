@@ -7,3 +7,4 @@ tensorflow
 opencv-python-headless
 keras
 seaborn
+git-lfs
