@@ -40,7 +40,6 @@ def save_uploaded_file(uploaded_file):
     except:
         return 0
 
-
 if uploaded_file is not None:
     if save_uploaded_file(uploaded_file):
         # display the image

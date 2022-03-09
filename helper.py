@@ -1,11 +1,8 @@
 import cv2
-import os
 import numpy as np
 import config
 import pandas as pd
 
-# getting the current path
-current_path = os.getcwd()
 
 def predictor(img_path, predictor_model):
     image = cv2.imread(img_path)
